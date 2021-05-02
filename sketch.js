@@ -27,6 +27,7 @@ function draw() {
   line(0,0,100,0);
   pop()
   //arc for seconds hand
+  noFill();
   stroke(255,0,0);
   strokeWeight(10);
   arc(0,0,300,300,0,scAngle);
